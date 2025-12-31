@@ -1,18 +1,18 @@
-## Getting Started
+# Java 学習プロジェクト
 
-Welcome to the VS Code Java world. Here is a guideline to help you get started to write Java code in Visual Studio Code.
+Eclipseから学習をスタートし、現在は **VS Code (WSL/Ubuntu)** に環境を移行して学習しています。
 
-## Folder Structure
+## 現在の環境
+- **OS**: Windows (WSL2 / Ubuntu)
+- **Editor**: Visual Studio Code
+- **Structure**: プロ仕様の `src/bin` 分離構成
 
-The workspace contains two folders by default, where:
+## フォルダ構成のルール
+Javaの命名規則に従い、以下の構造で管理しています。
+- `src/java_study/`: ソースコード（パッケージ名 `java_study`）
+- `bin/`: コンパイル済みクラスファイル（Git除外対象）
 
-- `src`: the folder to maintain sources
-- `lib`: the folder to maintain dependencies
-
-Meanwhile, the compiled output files will be generated in the `bin` folder by default.
-
-> If you want to customize the folder structure, open `.vscode/settings.json` and update the related settings there.
-
-## Dependency Management
-
-The `JAVA PROJECTS` view allows you to manage your dependencies. More details can be found [here](https://github.com/microsoft/vscode-java-dependency#manage-dependencies).
+## 実行コマンド（備忘録）
+ターミナル（プロジェクトルート）で以下を実行する：
+```bash
+javac -d bin src/java_study/ファイル名.java && java -cp bin java_study.ファイル名
