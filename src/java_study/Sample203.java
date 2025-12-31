@@ -1,4 +1,4 @@
-package 一週間で身につくJava言語の基本;
+package java_study;
 
 public class Sample203 {
 	

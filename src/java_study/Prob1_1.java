@@ -1,4 +1,4 @@
-package 一週間で身につくJava言語の基本;
+package java_study;
 
 public class Prob1_1 {
 	public static void main(String[] args) {
