@@ -1,4 +1,4 @@
-package java_study.src;
+package java_study;
 
 public class Practice_queation3_13 {
     
