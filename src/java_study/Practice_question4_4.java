@@ -1,0 +1,19 @@
+package java_study;
+
+//while文を用いて、整数型変数 a を、
+// 以下のように変更し、表示するプログラムを作りなさい。
+//a = 0
+//a = 1
+//a = 2
+//a = 3
+
+public class Practice_question4_4 {
+    
+    public static void main(String[] args) {
+        int a = 0;
+        while (a <= 3) {
+            System.out.println("a = " + a);
+            a++;
+        }
+    }
+    }
