@@ -6,7 +6,7 @@ package java_study;
 // ループを抜け、”10の倍数が発生したので終了します”と表示して、
 // プログラムを終了しなさい。
 
-public class Practice_question4_10 {
+public class Practice_question4_9 {
     
     public static void main(String[] args) {
         int num = 1;
