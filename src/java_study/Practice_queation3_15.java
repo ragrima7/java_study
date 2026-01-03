@@ -1,0 +1,15 @@
+package java_study;
+public class Practice_queation3_15 {
+    
+    public static void main(String[] args) {
+        int num = (int)(Math.random()*100 + 1);
+        System.out.println("num = " + num);
+        if (num > 80) 
+            System.out.println("優");
+        else if (num <= 80 && num > 70) 
+            System.out.println("良");
+        else if(num <= 70 && num > 60) {
+            System.out.println("可");
+        }
+}
+}
