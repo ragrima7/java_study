@@ -5,7 +5,7 @@ package java_study;
 // forループを用いて、その数だけ■マークを表示するプログラムを
 // 作りなさい。
 
-public class Paractioce_question4_1 {
+public class Practice_question4_1 {
 
     public static void main(String[] args) {
         int num = (int)(Math.random()*10 + 1);
